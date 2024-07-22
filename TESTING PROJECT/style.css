@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.pinimg.com/originals/2f/bd/a9/2fbda9c7f3353c6ecfdbe38e9c4b3b7a.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.lyric {
+    font-size: 2em;
+    opacity: 0;
+    transition: opacity 0.5s;
+    color:white
+}
+
+#heart {
+    font-size: 5em;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    display: none;
+}
